@@ -1,0 +1,90 @@
+// Fonts
+@import url('https://fonts.googleapis.com/css?family=Nunito');
+
+// Variables
+@import 'variables';
+
+// Bootstrap
+@import '~bootstrap/scss/bootstrap';
+
+html, body {
+    background-color: #fff;
+    color: #636b6f;
+    font-family: 'Nunito', sans-serif;
+    font-weight: 200;
+    height: 100vh;
+    margin: 0;
+}
+
+[v-cloak] {display: none}
+
+.card {
+    font-size: 12pt ;
+}
+
+.full-height {
+    height: 100vh;
+}
+
+.flex-center {
+    align-items: center;
+    display: flex;
+    justify-content: center;
+}
+
+.position-ref {
+    position: relative;
+}
+
+.top-right {
+    position: absolute;
+    right: 10px;
+    top: 18px;
+}
+
+.banner {
+    position: absolute;
+    left: 0;
+    height: 300px;
+    top: 0;
+    width: 100%;
+    background-image: url("img/websiteflame_banner.jpg");
+}
+
+.create {
+    position: absolute;
+    right: 200px;
+    bottom: 50px;
+
+}
+.slogan {
+    position: absolute;
+    bottom: 0;
+    right: 10px;
+    color: aliceblue;
+    text-align: right;
+    font-size: 54px;
+}
+
+.content {
+    text-align: center;
+}
+
+.title {
+    font-size: 84px;
+}
+
+.links > a {
+    color: #636b6f;
+    padding: 0 25px;
+    font-size: 13px;
+    font-weight: 600;
+    letter-spacing: .1rem;
+    text-decoration: none;
+    text-transform: uppercase;
+}
+
+.m-b-md {
+    margin-bottom: 30px;
+}
+

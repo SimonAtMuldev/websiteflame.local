@@ -7,6 +7,26 @@ use Illuminate\Http\Request;
 
 class PostController extends Controller
 {
+
+    /**
+     * @return \Illuminate\Contracts\View\Factory|\Illuminate\View\View
+     */
+    public function all()
+    {
+        return view('cms-public.index', [
+            'posts' => Post::latest()->paginate(5)
+        ]);
+    }
+
+    /**
+     * @param Post $post
+     * @return \Illuminate\Contracts\View\Factory|\Illuminate\View\View
+     */
+    public function single(Post $post)
+    {
+        return view('cms-public.post', compact('post'));
+    }
+
     /**
      * Display a listing of the resource.
      *
