@@ -7,17 +7,20 @@
 import Vue from 'vue';
 import VueRouter from 'vue-router';
 import routes from './routes';
+import Create from "./components/Create";
+import Update from "./components/Update";
+import Comments from "./components/Comments";
 
 Vue.use(VueRouter);
 
 let app = new Vue({
     el: '#app',
-    router: new VueRouter(routes)
+    router: new VueRouter(routes),
 });
 
 
 require('./bootstrap');
-// Vue.component('example-component', require('./components/Home.vue').default);
+// Vue.component('example-component', require('./components/Homepage.vue').default);
 
 // window.Vue = require('vue');
 // const files = require.context('./', true, /\.vue$/i)

@@ -10960,6 +10960,11 @@ body {
   text-transform: uppercase;
 }
 
+.links {
+  font-size: 20px;
+  color: #636b6f;
+}
+
 .m-b-md {
   margin-bottom: 30px;
 }

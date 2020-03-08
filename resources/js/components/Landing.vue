@@ -6,7 +6,11 @@
                     <div class="card-header">vuejs Landing Component</div>
 
                     <div class="card-body">
-                        I'm an Landing component.
+                        <div class="links">
+                            <a href="https://laravel.com/docs">Docs</a>
+                            <a href="https://github.com/laravel/laravel">GitHub</a>
+                        </div>
+
                     </div>
                 </div>
             </div>
